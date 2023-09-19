@@ -10,6 +10,6 @@ https://rainnn-w.github.io/about/index.html
 https://rainnn-w.github.io/
 https://rainnn-w.github.io/tags/lab/
 https://rainnn-w.github.io/tags/Java/
+https://rainnn-w.github.io/tags/c/
 https://rainnn-w.github.io/tags/Linux/
 https://rainnn-w.github.io/tags/sdu/
-https://rainnn-w.github.io/tags/c/

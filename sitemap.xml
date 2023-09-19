@@ -106,6 +106,13 @@
   </url>
   
   <url>
+    <loc>https://rainnn-w.github.io/tags/c/</loc>
+    <lastmod>2023-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://rainnn-w.github.io/tags/Linux/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -114,13 +121,6 @@
   
   <url>
     <loc>https://rainnn-w.github.io/tags/sdu/</loc>
-    <lastmod>2023-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://rainnn-w.github.io/tags/c/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
