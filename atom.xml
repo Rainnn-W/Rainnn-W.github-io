@@ -4,11 +4,10 @@
     <title>Rainnnの</title>
     <link href="https://rainnn-w.github.io" />
     <updated>2023-08-07T09:05:55.000Z</updated>
-    <category term="lab" />
     <category term="Java" />
-    <category term="Linux" />
-    <category term="sdu" />
+    <category term="lab" />
     <category term="c++" />
+    <category term="Linux" />
     <entry>
         <id>https://rainnn-w.github.io/posts/32775.html</id>
         <title>(零基础)pycharm+服务器+anaconda虚拟环境|配置深度学习环境</title>
@@ -195,7 +194,6 @@ Interpreter 点击右边的三个点找到你 conda 创建的虚拟环境的路�
 &lt;p&gt;平时分是小组写调研报告&lt;/p&gt;
 &lt;p&gt;分数是 5：5（因老师而异&lt;/p&gt;
 </content>
-        <category term="sdu" />
         <updated>2023-06-21T15:10:27.850Z</updated>
     </entry>
     <entry>

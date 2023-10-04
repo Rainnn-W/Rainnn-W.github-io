@@ -1,19 +1,22 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://rainnn-w.github.io</id>
-    <title>Rainnnの • Posts by &#34;sdu&#34; tag</title>
-    <link href="https://rainnn-w.github.io" />
-    <updated>2023-06-21T15:10:27.850Z</updated>
-    <category term="lab" />
-    <category term="Java" />
-    <category term="Linux" />
-    <category term="sdu" />
-    <category term="c++" />
-    <entry>
-        <id>https://rainnn-w.github.io/posts/43414.html</id>
-        <title>课程学习及考试经验分享 （大一）</title>
-        <link rel="alternate" href="https://rainnn-w.github.io/posts/43414.html"/>
-        <content type="html">&lt;h1 id=&#34;课程学习及考试经验分享-大一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#课程学习及考试经验分享-大一&#34;&gt;#&lt;/a&gt; 课程学习及考试经验分享 （大一）&lt;/h1&gt;
+<rss version="2.0">
+    <channel>
+        <title>Rainnnの • Posts by &#34;school&#34; category</title>
+        <link>https://rainnn-w.github.io</link>
+        <description>blingbling~</description>
+        <language>CN</language>
+        <pubDate>Wed, 21 Jun 2023 23:10:27 +0800</pubDate>
+        <lastBuildDate>Wed, 21 Jun 2023 23:10:27 +0800</lastBuildDate>
+        <category>Java</category>
+        <category>lab</category>
+        <category>c++</category>
+        <category>Linux</category>
+        <item>
+            <guid isPermalink="true">https://rainnn-w.github.io/posts/43414.html</guid>
+            <title>课程学习及考试经验分享 （大一）</title>
+            <link>https://rainnn-w.github.io/posts/43414.html</link>
+            <pubDate>Wed, 21 Jun 2023 23:10:27 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;课程学习及考试经验分享-大一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#课程学习及考试经验分享-大一&#34;&gt;#&lt;/a&gt; 课程学习及考试经验分享 （大一）&lt;/h1&gt;
 &lt;h2 id=&#34;大一上&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#大一上&#34;&gt;#&lt;/a&gt; 大一上&lt;/h2&gt;
 &lt;h3 id=&#34;1高等数学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1高等数学&#34;&gt;#&lt;/a&gt; 1. 高等数学&lt;/h3&gt;
 &lt;p&gt;每年都会有萌新们觉得很难，但只要好好学，绝对能拿超高分，满分也不是问题！&lt;/p&gt;
@@ -111,8 +114,7 @@
 &lt;p&gt;考试是开卷写论文&lt;/p&gt;
 &lt;p&gt;平时分是小组写调研报告&lt;/p&gt;
 &lt;p&gt;分数是 5：5（因老师而异&lt;/p&gt;
-</content>
-        <category term="sdu" />
-        <updated>2023-06-21T15:10:27.850Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>

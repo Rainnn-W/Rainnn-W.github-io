@@ -7,11 +7,10 @@
         <language>CN</language>
         <pubDate>Mon, 07 Aug 2023 17:05:55 +0800</pubDate>
         <lastBuildDate>Mon, 07 Aug 2023 17:05:55 +0800</lastBuildDate>
-        <category>lab</category>
         <category>Java</category>
-        <category>Linux</category>
-        <category>sdu</category>
+        <category>lab</category>
         <category>c++</category>
+        <category>Linux</category>
         <item>
             <guid isPermalink="true">https://rainnn-w.github.io/posts/32775.html</guid>
             <title>(零基础)pycharm+服务器+anaconda虚拟环境|配置深度学习环境</title>
