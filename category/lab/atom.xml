@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rainnn-w.github.io</id>
+    <title>Rainnnの • Posts by &#34;lab&#34; category</title>
+    <link href="https://rainnn-w.github.io" />
+    <updated>2023-08-07T09:05:55.000Z</updated>
+    <category term="Java" />
+    <category term="blog" />
+    <category term="lab" />
+    <category term="c++" />
+    <entry>
+        <id>https://rainnn-w.github.io/posts/32775.html</id>
+        <title>(零基础)pycharm+服务器+anaconda虚拟环境|配置深度学习环境</title>
+        <link rel="alternate" href="https://rainnn-w.github.io/posts/32775.html"/>
+        <content type="html">&lt;h1 id=&#34;零基础pycharm服务器anaconda虚拟环境配置深度学习环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#零基础pycharm服务器anaconda虚拟环境配置深度学习环境&#34;&gt;#&lt;/a&gt; (零基础) pycharm + 服务器 + anaconda 虚拟环境 | 配置深度学习环境&lt;/h1&gt;
+&lt;h2 id=&#34;1安装pycharm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1安装pycharm&#34;&gt;#&lt;/a&gt; 1. 安装 pycharm&lt;/h2&gt;
+&lt;p&gt;在官网下载安装即可，附链接：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9weWNoYXJtL2Rvd25sb2FkLz9zZWN0aW9uPXdpbmRvd3M=&#34;&gt;Download PyCharm: Python IDE for Professional Developers by JetBrains&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：只有 professional 版本的 pycharm 可以连接服务器&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;学生可激活后免费使用，教程可参考：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC81NTUzNDY3MjE=&#34;&gt;学生如何免费使用（激活）Pycharm（专业版）- 学生认证教程 - 知乎 (zhihu.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;具体安装步骤网上教程很多，可以自行搜索&lt;/p&gt;
+&lt;h2 id=&#34;2连接远程服务器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2连接远程服务器&#34;&gt;#&lt;/a&gt; 2. 连接远程服务器&lt;/h2&gt;
+&lt;p&gt;1. 在 pycharm 打开你的深度学习项目&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281110627.png&#34; alt&gt;&lt;/p&gt;
+&lt;p&gt;2. 上方找到 Tools--Deployment--Configuration&lt;/p&gt;
+&lt;p&gt;3. 点击加号，选择 SFTP&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281110690.png&#34; alt=&#34;image-20230807171459409&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3JhaW5ubi13L1BpY3R1cmVzQG1haW4vYmxvZy8yMDIzMDgyODExMTA3MjAucG5n&#34;&gt;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281110720.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20230807171518069&amp;quot; style=&amp;quot;zoom:50%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;起一个名字并输入，点击 ok&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281111393.png&#34; alt=&#34;image-20230807171626347&#34;&gt;&lt;/p&gt;
+&lt;p&gt;4. 如图，点击&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281111264.png&#34; alt=&#34;image-20230807171736801&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点击加号&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281111499.png&#34; alt=&#34;image-20230807171814607&#34;&gt;&lt;/p&gt;
+&lt;p&gt;输入服务器相关的信息&lt;br&gt;
+ Host、port、username、password&lt;/p&gt;
+&lt;p&gt;输入完成后可点击 Test Connection 测试连接是否成功，成功后点击 ok&lt;/p&gt;
+&lt;p&gt;5. 如图在这里选择你刚刚配置好的 SSH&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281112148.png&#34; alt=&#34;image-20230807171953663&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这里的 root path 对应服务器中的路径，默认即可，不用修改&lt;/p&gt;
+&lt;p&gt;配置好点击 ok 即可&lt;/p&gt;
+&lt;h2 id=&#34;3在服务器创建虚拟环境并配置深度学习环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3在服务器创建虚拟环境并配置深度学习环境&#34;&gt;#&lt;/a&gt; 3. 在服务器创建虚拟环境并配置深度学习环境&lt;/h2&gt;
+&lt;p&gt;1. 找到 pycharm 最下方的 Terminal 并点击&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281112910.png&#34; alt=&#34;image-20230807172324807&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点击下拉三角，选择你刚连接的 server name 会服务器的命令窗口&lt;br&gt;
+这里使用的 Linux 服务器&lt;/p&gt;
+&lt;p&gt;（假定已经安装好 anaconda 了，若未安装有很多教程可以参考，此处不赘述）&lt;/p&gt;
+&lt;p&gt;可输入 &lt;code&gt;conda&lt;/code&gt;  确认是否已安装&lt;/p&gt;
+&lt;p&gt;2. 在命令窗口输入 &lt;code&gt;conda env list&lt;/code&gt;  可查看已有的环境&lt;/p&gt;
+&lt;p&gt;我们输入以下命令：&lt;/p&gt;
+&lt;p&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;conda create &lt;span class=&#34;token parameter variable&#34;&gt;--name&lt;/span&gt; xxx &lt;span class=&#34;token assign-left variable&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;x.x&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;来创建虚拟环境 xxx 是环境的名字，x.x 为指定 python 版本&lt;/p&gt;
+&lt;p&gt;3. 激活环境&lt;/p&gt;
+&lt;p&gt;先输入 &lt;code&gt;bash&lt;/code&gt;  命令，再输入以下命令：&lt;/p&gt;
+&lt;p&gt;&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;conda activate xxx &lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;xxx 为你刚创建的虚拟环境的名字&lt;/p&gt;
+&lt;h2 id=&#34;4设置python编译器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4设置python编译器&#34;&gt;#&lt;/a&gt; 4. 设置 python 编译器&lt;/h2&gt;
+&lt;p&gt;1.File--Settings-- 可搜索找&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281112803.png&#34; alt=&#34;image-20230807173609465&#34;&gt; 到 python Interpreter&lt;br&gt;
+2.Add Interpreter-- On SSH...&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3JhaW5ubi13L1BpY3R1cmVzQG1haW4vYmxvZy8yMDIzMDgyODExMTI3MDQucG5n&#34;&gt;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281112704.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20230807173717721&amp;quot; style=&amp;quot;zoom:50%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;3. 选择 Existing，SSH Server 下拉三角选择你刚连接好的&lt;br&gt;
+ Next--Next&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281112847.png&#34; alt=&#34;image-20230807173819091&#34;&gt;&lt;/p&gt;
+&lt;p&gt;4. 选择 Virtualenv Environment&lt;br&gt;
+Environment 选则 Existing&lt;br&gt;
+Interpreter 点击右边的三个点找到你 conda 创建的虚拟环境的路径&lt;br&gt;
+例如我的在：/opt/conda/envs/xxx&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281112337.png&#34; alt=&#34;image-20230807173948135&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 /opt/conda/envs/xxx/bin 路径中找到 python 文件选中后点击 ok 即可&lt;/p&gt;
+&lt;p&gt;5.Sync folders 设置路径&lt;br&gt;
+点击右边的文件夹后将 Remote 改为你的项目将要放置的路&lt;/p&gt;
+&lt;p&gt;6. 点击 create 创建成功&lt;/p&gt;
+&lt;p&gt;7. 查看一下你 python Interpreter 选择的是否正确&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281112873.png&#34; alt=&#34;image-20230807174543242&#34;&gt;&lt;/p&gt;
+&lt;p&gt;下面显示的是这个虚拟环境中所安装的包（我这里有很多了）&lt;/p&gt;
+&lt;p&gt;点击 ok 即可&lt;/p&gt;
+&lt;h2 id=&#34;5配置深度学习环境运行程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5配置深度学习环境运行程序&#34;&gt;#&lt;/a&gt; 5. 配置深度学习环境 + 运行程序&lt;/h2&gt;
+&lt;p&gt;我们之前已经在 Terminal 窗口进入到我们创建的虚拟环境了，使用 &lt;code&gt;cd&lt;/code&gt;  命令修改到你刚刚选择的上传程序的路径&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;conda list&lt;/code&gt;  可以查看已安装的包&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;conda install xxx&lt;/code&gt;  安装需要的包（可指定版本）&lt;/p&gt;
+&lt;p&gt;若 &lt;code&gt;conda&lt;/code&gt;  安装不了也可以使用 &lt;code&gt;pip install xxx&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;当需要的包都装好了，直接右上小绿三角运行就可以啦～&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：可能会遇到在虚拟环境中都装好了， &lt;code&gt;conda list&lt;/code&gt;  查看也有，但是为什么 pycharm 中检测不到呢？&lt;/p&gt;
+&lt;p&gt;可以重启 pycharm 或者&lt;/p&gt;
+&lt;p&gt;按下 shift 键 2 次，搜索 Rescan Available Python Modules and Packages 并点击刷新安装的包（好用）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;6本地修改同步更新到服务器上&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6本地修改同步更新到服务器上&#34;&gt;#&lt;/a&gt; 6. 本地修改同步更新到服务器上&lt;/h2&gt;
+&lt;p&gt;Tools--Deployment--Options&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/rainnn-w/Pictures@main/blog/202308281113096.png&#34; alt=&#34;image-20230807175147741&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这里三个选项，always 就是一直同步，我这里选择的是按下 Ctrl+S 后同步&lt;br&gt;
+按需修改，修改后点击 ok 即可&lt;/p&gt;
+&lt;p&gt;全部过程有很多很多坑，网上的教程大多都只有其中一部分，基于自己的操作经历整理完成了这篇 (ㄒ o ㄒ)/~~&lt;/p&gt;
+</content>
+        <category term="lab" />
+        <updated>2023-08-07T09:05:55.000Z</updated>
+    </entry>
+</feed>
