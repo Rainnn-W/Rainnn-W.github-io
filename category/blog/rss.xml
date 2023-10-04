@@ -8,9 +8,9 @@
         <pubDate>Thu, 22 Dec 2022 16:11:01 +0800</pubDate>
         <lastBuildDate>Thu, 22 Dec 2022 16:11:01 +0800</lastBuildDate>
         <category>Java</category>
-        <category>blog</category>
-        <category>lab</category>
         <category>c++</category>
+        <category>lab</category>
+        <category>blog</category>
         <item>
             <guid isPermalink="true">https://rainnn-w.github.io/posts/48639.html</guid>
             <title>使用Hexo+Github搭建个人博客</title>

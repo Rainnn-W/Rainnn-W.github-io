@@ -5,9 +5,9 @@
     <link href="https://rainnn-w.github.io" />
     <updated>2022-12-22T08:11:01.000Z</updated>
     <category term="Java" />
-    <category term="blog" />
-    <category term="lab" />
     <category term="c++" />
+    <category term="lab" />
+    <category term="blog" />
     <entry>
         <id>https://rainnn-w.github.io/posts/48639.html</id>
         <title>使用Hexo+Github搭建个人博客</title>

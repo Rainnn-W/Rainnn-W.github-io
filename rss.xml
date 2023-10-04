@@ -8,9 +8,9 @@
         <pubDate>Mon, 07 Aug 2023 17:05:55 +0800</pubDate>
         <lastBuildDate>Mon, 07 Aug 2023 17:05:55 +0800</lastBuildDate>
         <category>Java</category>
-        <category>blog</category>
-        <category>lab</category>
         <category>c++</category>
+        <category>lab</category>
+        <category>blog</category>
         <item>
             <guid isPermalink="true">https://rainnn-w.github.io/posts/32775.html</guid>
             <title>(零基础)pycharm+服务器+anaconda虚拟环境|配置深度学习环境</title>
